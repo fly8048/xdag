@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="daggercoin"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cgi_block">
+				<Option output="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/cgi_block" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DDFSTOOLS"/>
+					<Add option="-DCHEATCOIN"/>
+					<Add option="-DSHA256_USE_OPENSSL_TXFM"/>
+					<Add option="-DSHA256_OPENSSL_MBLOCK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 cgi_block"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cgi_block/fast">
+				<Option output="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/cgi_block" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DDFSTOOLS"/>
+					<Add option="-DCHEATCOIN"/>
+					<Add option="-DSHA256_USE_OPENSSL_TXFM"/>
+					<Add option="-DSHA256_OPENSSL_MBLOCK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 cgi_block/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xdag">
+				<Option working_dir="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 xdag"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cgi_stats">
+				<Option output="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/cgi_stats" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DDFSTOOLS"/>
+					<Add option="-DCHEATCOIN"/>
+					<Add option="-DSHA256_USE_OPENSSL_TXFM"/>
+					<Add option="-DSHA256_OPENSSL_MBLOCK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 cgi_stats"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cgi_stats/fast">
+				<Option output="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/cgi_stats" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DDFSTOOLS"/>
+					<Add option="-DCHEATCOIN"/>
+					<Add option="-DSHA256_USE_OPENSSL_TXFM"/>
+					<Add option="-DSHA256_OPENSSL_MBLOCK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 cgi_stats/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daggercoin">
+				<Option output="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/daggercoin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DDFSTOOLS"/>
+					<Add option="-DCHEATCOIN"/>
+					<Add option="-DSHA256_USE_OPENSSL_TXFM"/>
+					<Add option="-DSHA256_OPENSSL_MBLOCK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 daggercoin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daggercoin/fast">
+				<Option output="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/daggercoin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DDFSTOOLS"/>
+					<Add option="-DCHEATCOIN"/>
+					<Add option="-DSHA256_USE_OPENSSL_TXFM"/>
+					<Add option="-DSHA256_OPENSSL_MBLOCK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 daggercoin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/address.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/address.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/balance.cgi.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/block.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/block.cgi.c">
+			<Option target="cgi_block"/>
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/block.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/cmake-build-debug/CMakeFiles/feature_tests.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/commands.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/commands.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/crypt.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/crypt.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/dvstime.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/hash.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/hash.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/http/http.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/http/http.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/http/url.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/http/url.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/init.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/init.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/cJSON.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/cJSON.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/cJSON_Utils.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/cJSON_Utils.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/rpc_commands.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/rpc_commands.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/rpc_procedure.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/rpc_procedure.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/rpc_procedures.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/rpc_procedures.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/rpc_service.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/rpc_service.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/rpc_wrapper.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/json-rpc/rpc_wrapper.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/main.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/math.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/math.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/memory.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/memory.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/miner.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/miner.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/mining_common.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/mining_common.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/netdb.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/netdb.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/network.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/network.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/pool.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/pool.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/sha256-mb-x86_64-mac.s">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/sha256.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/sha256.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/state.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/statsdaemon.c">
+			<Option target="cgi_stats"/>
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/storage.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/storage.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/sync.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/sync.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/system.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/terminal.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/terminal.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/time.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/time.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/transport.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/transport.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/types.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/uthash/uthash.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/uthash/utlist.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/atomic.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/atomic.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/dirname.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/dirname.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/linenoise.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/linenoise.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/log.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/log.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/moving_statistics/moving_average.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/moving_statistics/moving_average.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/utils.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/utils/utils.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/version.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/wallet.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/wallet.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/client/x86_64cpuid-mac.s">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/CMakeFiles/feature_tests.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dnet/dnet_crypt.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dnet/dnet_crypt.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dnet/dnet_history.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dnet/dnet_main.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dnet/dnet_packet.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dnet/dnet_xdag.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dnet/system.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dar/source/include/crc.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dar/source/lib/crc_c.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dfstools/source/dfslib/dfslib_crypt.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dfstools/source/dfslib/dfslib_crypt.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dfstools/source/dfslib/dfslib_random.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dfstools/source/dfslib/dfslib_random.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dfstools/source/dfslib/dfslib_string.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dfstools/source/dfslib/dfslib_string.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dfstools/source/dfslib/dfslib_types.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dfstools/source/include/dfsrsa.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/dus/programs/dfstools/source/lib/dfsrsa.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/ldus/source/include/ldus/atomic.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/ldus/source/include/ldus/list.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/ldus/source/include/ldus/rbtree.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/contrib/lax_der_parsing.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/contrib/lax_der_parsing.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/contrib/lax_der_privatekey_parsing.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/contrib/lax_der_privatekey_parsing.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/include/secp256k1.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/include/secp256k1_ecdh.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/include/secp256k1_recovery.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/basic-config.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/bench.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/bench_ecdh.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/bench_ecmult.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/bench_internal.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/bench_recover.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/bench_sign.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/bench_verify.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/ecdsa.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/ecdsa_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/eckey.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/eckey_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/ecmult.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/ecmult_const.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/ecmult_const_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/ecmult_gen.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/ecmult_gen_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/ecmult_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/field.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/field_10x26.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/field_10x26_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/field_5x52.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/field_5x52_asm_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/field_5x52_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/field_5x52_int128_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/field_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/gen_context.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/group.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/group_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/hash.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/hash_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/java/org_bitcoin_Secp256k1Context.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/java/org_bitcoin_Secp256k1Context.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/modules/ecdh/main_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/modules/ecdh/tests_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/modules/recovery/main_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/modules/recovery/tests_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/num.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/num_gmp.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/num_gmp_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/num_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/scalar.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/scalar_4x64.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/scalar_4x64_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/scalar_8x32.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/scalar_8x32_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/scalar_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/scalar_low.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/scalar_low_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/scratch.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/scratch_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/secp256k1.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/testrand.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/testrand_impl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/tests.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/tests_exhaustive.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/secp256k1/src/util.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/arpa/inet.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/netdb.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/netinet/in.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/sys/ioctl.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/sys/resource.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/sys/socket.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/sys/time.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/system.c">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/termios.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/unistd.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdag/version.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdagwallet/CEditWalletAddr.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdagwallet/CEditWalletAddrMine.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdagwallet/PasswordDlg.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdagwallet/ToolTip.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdagwallet/resource.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdagwallet/stdafx.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdagwallet/targetver.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdagwallet/version.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdagwallet/xdagwallet.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/win/xdagwallet/xdagwalletDlg.h">
+			<Option target="daggercoin"/>
+		</Unit>
+		<Unit filename="/Users/dx/study/xdag/xdagread/xdag/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

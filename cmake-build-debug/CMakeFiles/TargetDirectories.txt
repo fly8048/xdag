@@ -1,0 +1,6 @@
+/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/CMakeFiles/cgi_block.dir
+/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/CMakeFiles/xdag.dir
+/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/CMakeFiles/cgi_stats.dir
+/Users/dx/study/xdag/xdagread/xdag/cmake-build-debug/CMakeFiles/daggercoin.dir
